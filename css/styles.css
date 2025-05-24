@@ -40,6 +40,7 @@ img {
 button {
   cursor: pointer;
   border: none;
+  font-family: inherit;
 }
 
 /* Utility Styles */
@@ -60,4 +61,83 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.logo-link {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+/* Header */
+.header-product {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-right: 237px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-right: 73px;
+}
+
+.header-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  padding: 26px 0;
+}
+
+.current {
+  font-weight: 600;
+}
+
+.header-button-list {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.button-in {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  background-color: #fff;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+}
+
+.button-up {
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  background-color: #02897a;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
 }
