@@ -90,7 +90,7 @@ button {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding-right: 237px;
+  margin-right: 237px;
   padding-top: 26px;
   padding-bottom: 26px;
 }
@@ -99,7 +99,7 @@ button {
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-right: 73px;
+  margin-right: auto;
 }
 
 .header-nav-link {
@@ -118,6 +118,7 @@ button {
   display: flex;
   align-items: center;
   gap: 21px;
+  margin-left: auto;
 }
 
 .button-in {
